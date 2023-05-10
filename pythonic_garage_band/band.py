@@ -70,7 +70,7 @@ class Drummer(Musician):
     
 class Band:
 
-    instances: ClassVar[list['Band']] = []
+    instances = []
 
     def __init__(self, name, members = []):
         self.name = name
